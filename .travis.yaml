@@ -7,7 +7,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t reminder -f ./database/Dockerfile .
+  - docker build -f database/Dockerfile -t reminder .
 
 script:
   - docker run reminder
