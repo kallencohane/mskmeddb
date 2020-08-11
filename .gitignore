@@ -1,4 +1,4 @@
-config.py
+#config.py
 .env
 test.js
 /node_modules
