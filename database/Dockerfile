@@ -8,4 +8,6 @@ COPY ./database/config.py ./database/config.py
 
 RUN pip install pymysql
 
+EXPOSE 80
+
 CMD ["python3", "./database/ReminderConsent.py"]
