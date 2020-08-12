@@ -18,19 +18,19 @@ deploy:
 
   provider: elasticbeanstalk
 
-  region: us-east-1
+  region: "us-east-1"
 
-  app: MSKMed
+  app: "MSKMed"
 
-  env: Mskmed-env
+  env: "Mskmed-env"
 
-  bucket_name: elasticbeanstalk-us-east-1-314414864449
+  bucket_name: "elasticbeanstalk-us-east-1-314414864449"
 
-  bucket_path: MSKMed
+  bucket_path: "MSKMed"
 
   on:
     branch: master
 
-  access_key_id: "$AWS_ACCESS_KEY"
+  access_key_id: $AWS_ACCESS_KEY
   
-  secret_access_key: "$AWS_SECRET_KEY"
+  secret_access_key: $AWS_SECRET_KEY
