@@ -12,7 +12,7 @@ before_install:
 - docker build -f database/Dockerfile -t reminder .
 
 script:
-- docker run reminder
+- docker run -d reminder
 
 deploy:
 
