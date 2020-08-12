@@ -1,4 +1,3 @@
-#test push
 import pymysql
 import config
 
