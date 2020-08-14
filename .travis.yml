@@ -6,7 +6,7 @@ services:
 before_install:
 - openssl aes-256-cbc -K $encrypted_1a1b9769344c_key -iv $encrypted_1a1b9769344c_iv
   -in database/config.py.enc -out database/config.py -d
-- docker build -f Dockerfile -t reminder .
+- docker build -f database/Dockerfile -t reminder .
 script:
 - docker run -d reminder
 deploy:
